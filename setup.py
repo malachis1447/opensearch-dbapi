@@ -10,8 +10,8 @@ with io.open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="elasticsearch-dbapi",
-    description=("A DBAPI and SQLAlchemy dialect for Elasticsearch"),
+    name="opensearch-dbapi",
+    description=("A DBAPI and SQLAlchemy dialect for Opensearch"),
     long_description=long_description,
     long_description_content_type="text/markdown",
     version=VERSION,
